@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Entrega 4</title>
+</head>
+
+
+<body>
+  <header class="header-view">
+    <div class="header-content container">
+      <!-- lista de navegacion       -->
+      <nav class="nav-section">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-list-item">Estudio</a></li>
+          <li><a href="portfolio.html" class="nav-list-item current-page">Portafolio</a></li>
+          <li><a href="#" class="nav-list-item">Contactos</a></li>
+        </ul>
+      </nav>
+      <!-- Fin lista de navegacion       -->
+
+      <!-- Elementos de contacto -->
+      <ul class="contact-list">
+        <li class="contact-set">
+          <a class="contact-item" href="mailto:info@devstudio.com"><svg height="12" width="16" class="icon-contact">
+              <use href="./images/icons/sprite.svg#icon-envelope"></use>
+            </svg>
+            info@devstudio.com
+          </a>
+        </li>
+        <li class="contact-set">
+          <a class="contact-item" href="tel:+55 5529 6000"><svg height="16" width="10" class="icon-contact">
+              <use href="./images/icons/sprite.svg#icon-smartphone"></use>
+            </svg>
+            +55 5529 6000
+          </a>
+        </li>
+      </ul>
+      <!-- Fin Elementos de contacto -->
+    </div>
+  </header>
+
+  <!-- :::  Inicio filtro de elementos  ::: -->
+  <section class="section">
+    <div class="container">
+      <ul class="filters-list">
+        <li class="filters-item"><button type="button" class="button-port">Todo</button></li>
+        <li class="filters-item"><button type="button" class="button-port">Sitios-web</button></li>
+        <li class="filters-item"><button type="button" class="button-port">Aplicaciones</button></li>
+        <li class="filters-item"><button type="button" class="button-port">Diseño</button></li>
+        <li class="filters-item"><button type="button" class="button-port">Marketing</button></li>
+      </ul>
+      <!-- :::  Fin filtro de elementos  ::: -->
+
+      <!-- :::  Inicio imagenes de portafolios  ::: -->
+      <ul class="portfolio-view">
+        <li class="card-list-item"><img class="card-image" src="./images/pimg1.jpg" alt="Descripción imagen 1">
+          <div class="img-section">
+            <h3 class="img-title">Tecnoduck</h3>
+            <p class="img-text">Sitio-web</p>
+          </div>
+        </li>
+        <li class="card-list-item"><img class="card-image" src="./images/pimg2.jpg" alt="Descripción imagen 2">
+          <div class="img-section">
+            <h3 class="img-title">Poster de Nueva Orleans vs Estrella Dorada</h3>
+            <p class="img-text">Diseño</p>
+          </div>
+        </li>
+        <li class="card-list-item"><img class="card-image" src="./images/pimg3.jpg" alt="Descripción imagen 3">
+          <div class="img-section">
+            <h3 class="img-title">Restaurante Seafood</h3>
+            <p class="img-text">Aplicaciones</p>
+          </div>
+        </li>
+        <li class="card-list-item"><img class="card-image" src="./images/pimg4.jpg" alt="Descripción imagen 4">
+          <div class="img-section">
+            <h3 class="img-title">Proyecto Prime</h3>
+            <p class="img-text">Marketing</p>
+          </div>
+        </li>
+        <li class="card-list-item"><img class="card-image" src="./images/pimg5.jpg" alt="Descripción imagen 5">
+          <div class="img-section">
+            <h3 class="img-title">Proyecto Cajas</h3>
+            <p class="img-text">Aplicaciones</p>
+          </div>
+        </li>
+        <li class="card-list-item"><img class="card-image" src="./images/pimg6.jpg" alt="Descripción imagen 6">
+          <div class="img-section">
+            <h3 class="img-title">La inspiración no tiene limites</h3>
+            <p class="img-text">Sitio-web</p>
+          </div>
+        </li>
+        <li class="card-list-item"><img class="card-image" src="./images/pimg7.jpg" alt="Descripción imagen 7">
+          <div class="img-section">
+            <h3 class="img-title">Edición Limitada</h3>
+            <p class="img-text">Diseño</p>
+          </div>
+        </li>
+        <li class="card-list-item"><img class="card-image" src="./images/pimg8.jpg" alt="Descripción imagen 8">
+          <div class="img-section">
+            <h3 class="img-title">Proyecto LAB</h3>
+            <p class="img-text">Marketing</p>
+          </div>
+        </li>
+        <li class="card-list-item"><img class="card-image" src="./images/pimg9.jpg" alt="Descripción imagen 9">
+          <div class="img-section">
+            <h3 class="img-title">Negocio en crecimiento</h3>
+            <p class="img-text">Aplicaciones</p>
+          </div>
+        </li>
+      </ul>
+      <!-- :::  Fin imagenes de portafolios  ::: -->
+  </section>
+
+  <!-- :::  Inicio del footer  ::: -->
+  <footer>
+    <div class="container">
+      <div class="footer-flex">
+        <div class="footer-set">
+          <a class="footer-logo" href="index.html"><span class="web-footer">Webstudio</span>
+            <address class="address-style">
+              <ul class="address-set">
+                <li class="contact-gap">
+                  <a class="address-list" href="https://maps.app.goo.gl/9mwFSRPnRB1V5AtL7">Calz. Ticomán 500, Ciudad de
+                    México, CDMX, México</a>
+                </li>
+                <li class="contact-gap">
+                  <a class="footer-contact" href="mailto:info@example.com">info@example.com</a>
+                </li>
+                <li>
+                  <a class="footer-contact" href="tel:+5555296000">+55 5529 6000</a>
+                </li>
+              </ul>
+            </address>
+        </div>
+        <div class="footer-join">
+          <h3 class="join-header-footer">ENCUENTRENOS EN</h3>
+          <ul class="social-icons-footer">
+            <li class="list-icons-footer">
+              <a href="#">
+                <svg width="20px" height="20px" class="icon-class">
+                  <use href="./images/icons/sprite.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="list-icons-footer">
+              <a href="#">
+                <svg width="20px" height="20px" class="icon-class">
+                  <use href="./images/icons/sprite.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="list-icons-footer">
+              <a href="#">
+                <svg width="20px" height="20px" class="icon-class">
+                  <use href="./images/icons/sprite.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="list-icons-footer">
+              <a href="#">
+                <svg width="20px" height="20px" class="icon-class">
+                  <use href="./images/icons/sprite.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- :::  Fin del footer  ::: -->
+</body>
+
+</html>
